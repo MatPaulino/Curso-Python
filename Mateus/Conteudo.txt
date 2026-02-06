@@ -1,0 +1,120 @@
+# # print("Hello World!")
+# # print(144)
+# # print("Mat" + "eus")
+# # print("palavra", + 999)
+# # print(12 + 12)
+# # print(12 - 12)
+# # print(12 * 12)
+# # print(12 / 12)
+# # print(12 ** 2)
+# # print(50 % 50)
+
+# var_snake = "Variavel em Snake_case"
+# varCamel = "Variavel em camelCase"
+# # var-snake = "Variavel em kebab-case"
+# VarPascal = "Variavel em PascalCase"
+
+# print(var_snake)
+# print(varCamel)
+# print(VarPascal)
+
+# adicao = 11 + 11
+# subtracao = 11 - 6
+# multiplicacao = 15 * 30
+# divisao = 14 / 2
+# potencia = 12 ** 2
+# isApproved = True
+# isLogged = False
+# name = "Mateus"
+# age = 17
+# height = 1.71
+
+# print(isApproved)
+# print(isLogged)
+# print(name)
+# print(age)
+# print(height)
+# print(isApproved, isLogged, name, age, height)
+# print(f'Meu nome é {name}')
+
+
+nome = "Mateus Paulinux"
+idade = 17
+profissao = "assistencia tecnica"
+fstrings = f"Bem vindo {nome} quer ver suas informações?"
+
+print(fstrings)
+decisao = input(" para sim, e n para nao:  ")
+
+if decisao == "s":
+    print(f"Seu nome é {nome}, você tem {idade} anos, e sua profissão é {profissao}!")
+if decisao == "n":
+    print("ok, Tenha um bom dia!")
+else:
+    print("é nescessário digitar um operador válido")
+    
+
+# n1 = int(input("digite um número:  "))
+# n2 = int(input("digite outro número:  "))
+# soma = n1 + n2
+
+# print(n1)
+# print(n2)
+
+# print(soma)
+
+# x = "abc"
+# y = "adf"
+              
+# print(x >= y)
+# print(x <= y)
+# print(x == y)
+# print(x != y)
+
+# print(len(x))
+# print(len(y))
+
+# var1 = len("texto")
+# var2 = len("toxete")
+
+# print(var1, var2)
+# print(var1 >= var2)
+# print(var1 <= var2)
+# print(var1 == var2)
+# print(var1 != var2)
+# print(var1 < var2)
+# print(var1 > var2)
+
+
+# idade = 17
+# tem_carteira = True
+# esta_bebado = False
+
+# # #and : ambas as condições são verdadeiras
+# print(idade >= 18 and tem_carteira and esta_bebado == False)
+
+# # #or : uma das condições preciza ser verdadeira
+# print(idade >= 18 or tem_carteira or esta_bebado == False)
+
+# # #not : inverte a condição
+# print(not tem_carteira, not esta_bebado)
+
+# nota1 = float(input("Digite a primeira nota do aluno(a):  "))
+# nota2 = float(input("Digite a segunda nota do aluno(a):  "))
+# nota3 = float(input("Digite a terceira nota do aluno(a):  "))
+# nota4 = float(input("Digite a quarta nota do aluno(a):  "))
+# media = (nota1 + nota2 + nota3 + nota4) / 4
+
+# if media >= 7:
+#     print("aprovado!")
+#     print("=D")
+# elif media >= 5:
+#     print("Recuperação")
+# else:
+#     print("Reprovado!")
+
+
+# n1 = float(input("Digite um numero:   "))
+# dob = n1 * 2
+
+# print(f"O dobro de {n1} é {dob}!")
